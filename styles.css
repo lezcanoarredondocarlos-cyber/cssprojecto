@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    color: black;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header p {
+    font-size: 12px;
+    margin: 5px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 10px;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 3px;
+}
+
+nav a {
+    display: block;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px;
+    width: 150px;
+    margin: auto;
+}
+
+nav a[href="#inicio"] {
+    background-color: lightskyblue;
+}
+
+nav a:hover {
+    color: lightskyblue;
+}
+
+.montana {
+    width: 100%;
+    height: 180px;
+}
+
+.montana img {
+    width: 100%;
+    height: 180px;
+}
+
+section {
+    padding: 15px 7%;
+}
+
+h2 {
+    border-bottom: 2px solid blue;
+    padding: 5px;
+    margin: 0 0 10px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.3;
+    margin: 5px 0;
+}
+
+#inicio {
+    background-color: lightblue;
+}
+
+#inicio h2 {
+    color: navy;
+    border-bottom: 2px solid blue;
+}
+
+#sobre-mi {
+    background-color: white;
+}
+
+#sobre-mi h2 {
+    color: navy;
+    border-bottom: 2px solid blue;
+}
+
+#aficiones {
+    background-color: lightpink;
+}
+
+#aficiones h2 {
+    color: darkred;
+    border-bottom: 2px solid red;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 0 8px;
+}
+
+#aficiones h3 {
+    color: darkred;
+    font-size: 14px;
+    margin: 0;
+}
+
+.tarjeta p {
+    color: black;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+#enlaces {
+    background-color: lightgreen;
+}
+
+#enlaces h2 {
+    color: darkgreen;
+    border-bottom: 2px solid green;
+}
+
+.enlace {
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0 0 5px;
+}
+
+#enlaces a {
+    color: darkgreen;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.enlace p {
+    font-size: 11px;
+    color: black;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 10px;
+    margin: 0;
+}
