@@ -1,7 +1,8 @@
-body {
-    margin: 0;
+body{
     font-family: Arial;
     color: black;
+ width: 1024px;
+ margin: 20px auto 20px auto;
 }
 
 header {
